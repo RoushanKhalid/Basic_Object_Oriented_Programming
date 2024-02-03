@@ -17,6 +17,12 @@ class Student { // class definition
         this.name = name;
     }
 
+    Student(Student s3) { // copy constructor
+        System.out.println("copy Constructor is being called");
+        this.name = s3.name;
+        this.age = s3.age;
+    }
+
 }
 
 public class Constructor {
@@ -33,6 +39,9 @@ public class Constructor {
 
         Student s2 = new Student("Baymax", 69);
         s2.printInfo();
+
+        Student s3 = new Student(s1);
+        s3.printInfo();
 
         Constructor constructor = new Constructor(); // an object of the Constructor class
     }
