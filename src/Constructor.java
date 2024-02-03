@@ -7,7 +7,7 @@ class Student { // class definition
         System.out.println(this.age);
     }
 
-    Student() { // non-parameterized constructor
+    Student() { // non-parameterized/default constructor
         System.out.println("non-parameterized Constructor is being called");
     }
 
