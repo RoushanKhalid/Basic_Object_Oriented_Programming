@@ -1,4 +1,4 @@
-class Student {
+class StaticStudent {
     String name;
     static String school; // Declare static variable
 
@@ -9,16 +9,16 @@ class Student {
 
 public class StaticKeyword {
     public static void main(String[] args) {
-        Student.school = "Senhati High School"; // Access static variable using class name
-        System.out.println(Student.school);
+        StaticStudent.school = "Senhati High School"; // Access static variable using class name
+        System.out.println(StaticStudent.school);
 
-        Student.changeSchool(); // Call changeSchool() method
+        StaticStudent.changeSchool(); // Call changeSchool() method
 
-        Student s1 = new Student();
+        StaticStudent s1 = new StaticStudent();
         s1.name = "Sk. Roushan Khalid";
 
         System.out.println(s1.name);
-        System.out.println(Student.school); // Access static variable using class name
+        System.out.println(StaticStudent.school); // Access static variable using class name
         System.out.println(s1.school); // Without accessing static variable
     }
 }
