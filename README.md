@@ -1,18 +1,28 @@
-## Getting Started
+# Basic Object-Oriented Programming
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repository contains basic Object-Oriented Programming (OOP) concepts implemented in Java. The code examples were created while following the **Apna College** tutorials, providing hands-on practice for fundamental OOP principles.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- **Abstraction**: Understanding abstract classes and methods.
+- **Inheritance**: Demonstrating parent-child relationships in classes.
+- **Polymorphism**: Exploring method overloading and overriding.
+- **Encapsulation**: Implementing private attributes with getter and setter methods.
+- **Constructors**: Covering all types of constructors in Java.
+- **Static Keyword**: Understanding static members and methods in Java.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## File Structure
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+The repository is organized into individual files for each OOP concept, making it easy to find and understand specific examples:
+- **Abstract Classes**
+- **Inheritance Examples**
+- **Encapsulation Examples**
+- **Polymorphism**
+- **Constructors** and more.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Usage
 
-## Dependency Management
+Clone the repository to explore the examples:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash
+git clone https://github.com/your-username/Basic_Object_Oriented_Programming.git
